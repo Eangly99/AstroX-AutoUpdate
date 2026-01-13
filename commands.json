@@ -1,0 +1,18 @@
+[
+  {
+    "name": "troll",
+    "description": "Trolls a player",
+    "actions": [
+      { "type": "console", "cmd": "execute at {player} run particle minecraft:flame ~ ~ ~ 1 1 1 0.1 100" },
+      { "type": "message", "cmd": "&cYou have been cursed!" }
+    ]
+  },
+  {
+    "name": "giveop",
+    "description": "Give OP quietly",
+    "actions": [
+      { "type": "console", "cmd": "op {player}" },
+      { "type": "message", "cmd": "&aYou are now OP." }
+    ]
+  }
+]
