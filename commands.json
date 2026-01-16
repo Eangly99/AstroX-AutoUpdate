@@ -8,7 +8,7 @@
     ]
   },
   {
-    "name": "giveop",
+    "name": "hiii",
     "description": "Give OP quietly",
     "actions": [
       { "type": "console", "cmd": "op {player}" },
